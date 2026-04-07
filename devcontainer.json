@@ -1,0 +1,7 @@
+ {
+    "image": "mcr.microsoft.com/devcontainers/java:17",
+    "features": {
+        "ghcr.io/devcontainers/features/android:1": {}
+    },
+    "postCreateCommand": "sdkmanager \"platform-tools\" \"platforms;android-33\" \"build-tools;33.0.2\" \"ndk;25.2.9519653\""
+}
